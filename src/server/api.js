@@ -8,7 +8,7 @@
         res.send(apiMap.generatePuzzle())
     })
     app.listen(80,function(){
-        console.log('server listening at port 3000!');
+        console.log('server listening at port 80!');
     })
 
 })();
