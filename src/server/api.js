@@ -7,7 +7,7 @@
     app.get('/api/v1/getPuzzle',function(req,res){
         res.send(apiMap.generatePuzzle())
     })
-    app.listen(,function(){
+    app.listen(443,function(){
         console.log('server listening at port 80!');
     })
 
