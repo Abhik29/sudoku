@@ -1,0 +1,17 @@
+{
+  "name": "sudoku",
+  "version": "1.0.0",
+  "description": "simple sudoku game",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/server/api",
+    "start_nodemon":"nodemon ./src/server/api.js"
+  },
+  "author": "abhik_dey29@yahoo.in",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2"
+  }
+}
