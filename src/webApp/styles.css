@@ -1,0 +1,241 @@
+*, html, body, .h1, .h2, .h3, h1, h2, h3, .row {
+    padding: 0;
+    margin: 0;
+}
+
+hr {
+    margin: 0px;
+	border-color:rgba(101,101,101,0.5);
+}
+
+.dbs-login-container {
+  background-image: url('./assets/images/singapore-b-g.png');
+  height:100vh;
+}
+
+.dbs-footer {
+	min-height: 30px !important;
+}
+
+.form-signin.Username {
+  width: 5px;
+  height: 10px;
+  opacity: 0.75;
+  font-family: FrutigerNextLT;
+  font-size: 16px;
+  font-weight: 400;
+  color: #9b9b9b;
+}
+
+.Line {
+  width: 250px;
+  height: 1px;
+  background-color: #9b9b9b;
+}
+
+.signin-logo-holder{
+	margin-bottom: 80px;
+}
+
+/*password*/
+.form-signin.Password {
+  width: 64px;
+  height: 18px;
+  opacity: 0.75;
+  font-family: FrutigerNextLT;
+  font-size: 16px;
+  font-weight: 400;
+  color: #9b9b9b;
+}
+
+.form-signin {
+  	margin: auto;
+  	height: 360px;
+	padding:80px 0 0 0;
+  	/*background-color: #ffffff;*/
+ 	width: 350px;
+	/*background-color: white;*/
+ 	background: url("./assets/images/panel-b-g.png") no-repeat center;
+	background-size: 360px auto;
+	 position: relative;
+	 text-align: center;
+}
+.logo {
+	background: url("./assets/images/dbs_logo.png") no-repeat center;
+	height: 50px;
+	width: 140px;
+	display: inline-block;
+}
+.form-signin:after{
+	content: '';
+	position: absolute;
+	top:-45px;
+	left: 50%;
+	display: block;
+	width: 100px;
+	height: 100px;
+	margin-left: -50px;
+	background: url("./assets/images/user-icon.png") no-repeat center;
+	background-size: 100px;
+}
+.form-signin .form-group{
+	margin: 50px 0;
+}
+.form-signin .form-control {
+	border: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	border: none;
+	text-align: center;
+	border-bottom: 1px solid #9b9b9b;
+	border-radius: 0px;
+	box-shadow: none;
+	background: transparent;
+	max-width: 250px;
+	display: inline-block;
+}
+.form-signin .dbs-btn-primary{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	font-size: 20px;
+	color: #fff;
+}
+
+.dbs-btn-primary {
+	width: 310px;
+  	height: 60px;
+  	background-color: #d0021b;
+	border: none;
+	
+}
+
+.dbs-app-btn-primary {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cd0000+0,6d0000+100 */
+	background: #cd0000; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2NkMDAwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM2ZDAwMDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #cd0000 0%, #6d0000 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cd0000), color-stop(100%,#6d0000)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #cd0000 0%,#6d0000 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #cd0000 0%,#6d0000 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #cd0000 0%,#6d0000 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #cd0000 0%,#6d0000 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cd0000', endColorstr='#6d0000',GradientType=0 ); /* IE6-8 */
+	zoom: 1;
+	color: #fff;
+}
+
+
+
+.wrapper {
+	margin-top: 70px;
+	margin-bottom: 80px;
+}
+
+#app-grid-dialog .k-centered {
+    top: 10%;
+    left: 50%;
+	bottom: 10%;
+    -webkit-transform: translate(-50%,0%);
+    transform: translate(-50%,0%);
+}
+.k-window-content {
+	padding-left:15px;
+	padding-right:15px;
+}
+
+#app-grid-add-edit-dialog .k-window-content {
+	padding:0px;
+	padding-top:15px;
+}
+
+.frdm-clickable {
+	cursor: pointer;
+}
+
+
+.ultimate-table-wrapper {
+    overflow-x: scroll;
+	display:block;
+	height:26.5em;
+	padding-left:0px;
+}
+
+.ultimate-table-wrapper:hover::-webkit-scrollbar-thumb {
+	background-color: rgba(101, 101, 101,.4);
+}
+
+.ultimate-table-wrapper::-webkit-scrollbar {
+    width: 8px;
+	height:8px;
+}
+ 
+.ultimate-table-wrapper::-webkit-scrollbar-track {
+    visibility: hidden;
+}
+.ultimate-table-wrapper::-webkit-scrollbar-track:hover {
+	/*currently there is no background color so still no visible*/
+    visibility: visible;
+}
+ 
+.ultimate-table-wrapper::-webkit-scrollbar-thumb {
+    border-radius: 2.5px;
+    background-color: rgba(101, 101, 101,.1);
+	cursor:pointer;
+	transition: background-color 1s ease-in;
+}
+.ultimate-table-wrapper::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(101, 101, 101,.6);
+}
+.ultimate-table-wrapper::-webkit-scrollbar-thumb:active {
+    background-color: rgb(101, 101, 101);
+}
+
+.k-alt {
+	/*background:rgba(255,153,0,0.1);*/
+    background-color: rgba(255,153,0,0.1) !important;
+}
+
+
+.alert {
+    padding: 0.75%;
+    border-radius: inherit; 
+}
+
+.alert-success {
+	border-color:#3c763d;
+	background-color: #d6e9c6;
+	font-weight: bold;
+	font-size:1 em
+}
+
+.frdm-hr {
+	border-bottom:1px solid rgba(101,101,101,0.2);
+}
+
+.has-error {
+	color:#a94442;
+	border-color: #a94442;
+}
+.frdm-notification {
+	position:absolute;
+	display:block;
+	top:-4%;
+	right:-4%;
+	width:20px;
+	height:20px;
+	border-radius:10px;
+	background-color: red;
+	color:white;
+	font-size:12px;
+	padding:2px;
+}
+
+#my-grid th.k-header {
+    padding: 9px 1em;
+	border-bottom: 1px solid rgba(0,0,0,.08);
+}
+
+
