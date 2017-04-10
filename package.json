@@ -9,7 +9,7 @@
     "start_nodemon": "nodemon ./src/server/api.js",
     "serve": "lite-server -c=bs-config.json",
     "webpack:dev:serve": "webpack-dev-server --content-base src/dist/",
-    "heroku-postbuild": "webpack -p --config ./webpack.config.js --progress"
+    "heroku-postbuild": "webpack --config ./webpack.config.js --progress"
   },
   "author": "abhik_dey29@yahoo.in",
   "license": "ISC",
