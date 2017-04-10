@@ -1,9 +1,10 @@
-let env = process.env.env||'dev';
+let env = process.env.NODE_ENV||'development';
+console.log(process.env);
 
-if (env === 'dev') {
+if (env === 'development') {
     console.log("Dev build is in Progress!");
     module.exports = require('./config/webpack.dev.js');
-} else if(env === 'prod') {
+} else if(env === 'production') {
     console.log("Prod build is in Progress!");
     module.exports = require('./config/webpack.prod.js');
 }
